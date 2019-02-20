@@ -1,13 +1,13 @@
 package cn.zxf.self.designall.factory.abstractfactory;
 
 /**
- * @ClassName AbstractFactory
+ * @ClassName IAbstractFactory
  * @Description TODO
  * @Author zxf
  * @DATE 2019/2/19
  */
-public interface AbstractFactory {
+public interface IAbstractFactory {
 
-    AbstractProductA createProductA();
-    AbstractProductB createProductB();
+    IAbstractProductA createProductA();
+    IAbstractProductB createProductB();
 }

@@ -6,7 +6,7 @@ package cn.zxf.self.designall.observer;
  * @Author zxf
  * @DATE 2019/2/18
  */
-public class ConcreteObserver implements Observer {
+public class ConcreteObserver implements IObserver {
 
     private  String name;
 

@@ -1,5 +1,5 @@
 package cn.zxf.self.designall.proxy;
 
-public interface Subject {
+public interface ISubject {
     void request();
 }

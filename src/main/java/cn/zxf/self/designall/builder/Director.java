@@ -7,7 +7,7 @@ package cn.zxf.self.designall.builder;
  * @DATE 2019/2/18
  */
 public class Director {
-    public void construct(Builder builder){
+    public void construct(IBuilder builder){
         builder.buildPart();
         builder.buildPartA();
         builder.buildPartB();

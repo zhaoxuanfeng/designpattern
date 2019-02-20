@@ -1,6 +1,6 @@
 package cn.zxf.self.designall.factory.simplefactory;
 
-public interface OperationInerface {
+public interface IOperationInerface {
 
      double getResult(String operate );
 

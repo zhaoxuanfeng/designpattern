@@ -11,7 +11,7 @@ public class OperationFactory {
 
     public static Object createOperate(String operate){
         Operation oper = null;
-        OperationInerface open = null;
+        IOperationInerface open = null;
        /* double a  = 1;
         double b = 1;*/
 

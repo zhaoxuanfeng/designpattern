@@ -8,9 +8,9 @@ package cn.zxf.self.designall.factory.strategy;
  */
 public class Context {
 
-    Strategy strategy ;
+    IStrategy strategy ;
 
-    public Context(Strategy strategy){
+    public Context(IStrategy strategy){
         this.strategy = strategy;
     }
 

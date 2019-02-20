@@ -11,7 +11,7 @@ public  class ReflectAbstractFactory {
     public ReflectAbstractFactory(){
 
     }
-    public static AbstractFactory createFactory(String name) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
-        return (AbstractFactory) Class.forName(name).newInstance();
+    public static IAbstractFactory createFactory(String name) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
+        return (IAbstractFactory) Class.forName(name).newInstance();
     }
 }

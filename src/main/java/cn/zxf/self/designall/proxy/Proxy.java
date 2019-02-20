@@ -6,7 +6,7 @@ package cn.zxf.self.designall.proxy;
  * @Author zxf
  * @DATE 2019/2/15
  */
-public class Proxy implements  Subject {
+public class Proxy implements ISubject {
 
     RealSubject realSubject;
 

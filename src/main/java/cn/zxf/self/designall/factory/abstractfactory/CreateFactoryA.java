@@ -6,20 +6,20 @@ package cn.zxf.self.designall.factory.abstractfactory;
  * @Author zxf
  * @DATE 2019/2/19
  */
-public class CreateFactoryA implements AbstractFactory {
+public class CreateFactoryA implements IAbstractFactory {
 
     public CreateFactoryA() {
     }
 
     @Override
-    public AbstractProductA createProductA() {
-        AbstractProductA abstractProductA = new ProductA_a();
+    public IAbstractProductA createProductA() {
+        IAbstractProductA abstractProductA = new ProductA_a();
         return abstractProductA;
     }
 
     @Override
-    public AbstractProductB createProductB() {
-        AbstractProductB abstractProductB = new ProductB_b();
+    public IAbstractProductB createProductB() {
+        IAbstractProductB abstractProductB = new ProductB_b();
         return abstractProductB;
     }
 }

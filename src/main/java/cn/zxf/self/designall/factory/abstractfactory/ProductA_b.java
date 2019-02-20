@@ -6,7 +6,7 @@ package cn.zxf.self.designall.factory.abstractfactory;
  * @Author zxf
  * @DATE 2019/2/19
  */
-public class ProductA_b implements AbstractProductA {
+public class ProductA_b implements IAbstractProductA {
     public ProductA_b() {
     }
 

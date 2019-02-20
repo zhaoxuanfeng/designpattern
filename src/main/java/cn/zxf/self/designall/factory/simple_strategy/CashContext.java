@@ -7,7 +7,7 @@ package cn.zxf.self.designall.factory.simple_strategy;
  * @DATE 2019/2/15
  */
 public class CashContext {
-    CashSuper cashSuper = null;
+    ICashSuper cashSuper = null;
 
     public CashContext(String type){
         switch (type){

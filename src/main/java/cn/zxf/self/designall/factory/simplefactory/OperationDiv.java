@@ -6,7 +6,7 @@ package cn.zxf.self.designall.factory.simplefactory;
  * @Author zxf
  * @DATE 2019/2/15
  */
-public class OperationDiv implements OperationInerface {
+public class OperationDiv implements IOperationInerface {
 
     private double number_a = 0;
     private double number_b = 0;

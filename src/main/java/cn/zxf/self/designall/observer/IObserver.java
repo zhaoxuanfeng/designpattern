@@ -6,7 +6,7 @@ package cn.zxf.self.designall.observer;
     *@Return  
  **/
 
-public interface Observer {
+public interface IObserver {
 
     void update();
 }

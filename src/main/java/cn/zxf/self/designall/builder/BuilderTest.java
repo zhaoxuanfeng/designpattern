@@ -10,7 +10,7 @@ public class BuilderTest {
     public static void main(String[] args){
 
           Director director = new Director();
-          Builder builder;
+          IBuilder builder;
           Product product;
           builder = new ConcretBuilderA();
           director.construct(builder);

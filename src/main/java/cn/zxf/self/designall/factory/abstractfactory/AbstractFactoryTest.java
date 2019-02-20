@@ -13,9 +13,9 @@ public class AbstractFactoryTest {
 
 
     public static void main(String[] args){
-        AbstractFactory factory = null;
-        AbstractProductA productA = null;
-        AbstractProductB productB = null;
+        IAbstractFactory factory = null;
+        IAbstractProductA productA = null;
+        IAbstractProductB productB = null;
         factory = new CreateFactoryA();
         productA = factory.createProductA();
         productB = factory.createProductB();
@@ -33,7 +33,7 @@ public class AbstractFactoryTest {
         System.out.println("反射实现");
 
         try {
-            factory = ReflectAbstractFactory.createFactory("cn.zxf.self.designall.factory.abstractfactory.AbstractProductA");
+            factory = ReflectAbstractFactory.createFactory("cn.zxf.self.designall.factory.abstractfactory.IAbstractProductA");
 
             productA = factory.createProductA();
             productB = factory.createProductB();

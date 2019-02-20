@@ -6,7 +6,7 @@ package cn.zxf.self.designall.factory.strategy;
  * @Author zxf
  * @DATE 2019/2/15
  */
-public class ConcreteStrategyA implements Strategy {
+public class ConcreteStrategyA implements IStrategy {
     @Override
     public void AlgorithmInterface() {
         System.out.println("实现A算法。");

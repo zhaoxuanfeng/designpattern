@@ -6,7 +6,7 @@ package cn.zxf.self.designall.factory.simple_strategy;
  * @Author zxf
  * @DATE 2019/2/15
  */
-public class CashRebate implements  CashSuper {
+public class CashRebate implements ICashSuper {
     @Override
     public double acceptCash(double money) {
         System.out.println("打8折！");

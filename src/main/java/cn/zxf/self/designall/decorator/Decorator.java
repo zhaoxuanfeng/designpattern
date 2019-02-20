@@ -6,10 +6,10 @@ package cn.zxf.self.designall.decorator;
  * @Author zxf
  * @DATE 2019/2/15
  */
-public abstract class Decorator implements Component {
-    private  Component component;
+public abstract class Decorator implements IComponent {
+    private IComponent component;
 
-    public  void  setComponent(Component component){
+    public  void  setComponent(IComponent component){
         this.component = component;
     }
 

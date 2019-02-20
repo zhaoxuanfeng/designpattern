@@ -15,8 +15,8 @@ public class SimpleFactoryTest {
          double result = oper.getResult();
          */
 
-        OperationInerface open;
-        open = (OperationInerface) OperationFactory.createOperate("*");
+        IOperationInerface open;
+        open = (IOperationInerface) OperationFactory.createOperate("*");
         open.setParam(2,4);
         double result = open.getResult("*");
 

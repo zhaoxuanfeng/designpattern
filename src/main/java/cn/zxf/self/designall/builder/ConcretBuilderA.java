@@ -6,7 +6,7 @@ package cn.zxf.self.designall.builder;
  * @Author zxf
  * @DATE 2019/2/18
  */
-public class ConcretBuilderA implements Builder {
+public class ConcretBuilderA implements IBuilder {
     private Product product = new Product();
 
     @Override
